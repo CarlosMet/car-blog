@@ -18,7 +18,7 @@ export default function Hero() {
         backgroundImage:`url('https://cdn.motor1.com/images/mgl/ko6VAN/s3/porsche-911-dakar-versatility.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
-      }} className='w-screen h-screen text-white px-4 md:px-8 lg:px-20 xl:px-28 2xl:px-40 pt-12 md:pt-14 lg:pt-32 xl:pt-40 2xl:pt-56 overflow-hidden relative'>
+      }} className='w-screen h-[96vh] lg:h-screen text-white px-4 md:px-8 lg:px-20 xl:px-28 2xl:px-40 pt-12 md:pt-14 lg:pt-32 xl:pt-40 2xl:pt-56 overflow-hidden relative'>
         <div className='leading-3 lg:leading-8'>
             <p>PORSCHE 911</p>
             <motion.h1 
