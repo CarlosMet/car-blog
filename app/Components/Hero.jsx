@@ -22,8 +22,8 @@ export default function Hero() {
         <div className='leading-3 lg:leading-8'>
             <p>PORSCHE 911</p>
             <motion.h1 
-                variants={fadeIn('down', 0, 120)} 
-                initial={'hidden'} 
+                variants={fadeIn('down', 0)} 
+                initial={'initial'} 
                 whileInView={'show'} 
                 viewport={{once:false, amount:0.6}} 
                 className={`${myFont.className} text-6xl lg:text-[88px]`}
